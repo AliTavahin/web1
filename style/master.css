@@ -1,0 +1,448 @@
+#head_top {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/header-no-sep.jpg);
+    background-size: 140% auto;
+    background-position: -175px;
+    position: relative;
+}
+
+#head_top>img {
+    width: 100%;
+    position: absolute;
+    height: 15%;
+    bottom: 0;
+    left: 0;
+}
+
+#head_top>header {
+    width: 100%;
+    height: 100%;
+    padding: 5px 20px;
+    position: relative;
+}
+
+#head_top>header>* {
+    height: 100%;
+}
+
+#head_top>header>*:not(nav) {
+    width: 25%;
+}
+
+#head_top>header>nav {
+    width: 50%;
+}
+
+#head_top>header>nav>ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#head_top>header>nav>ul>li>a {
+    display: flex;
+    height: 100%;
+    padding: 50px 20px;
+    font-size: 30px;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+}
+
+#head_top>header>nav>ul>li:hover>.mega {
+    left: 0;
+}
+
+#head_top>header>nav>ul>li:hover>.mega p,
+#head_top>header>nav>ul>li:hover>.mega ul {
+    transform: translateX(0);
+}
+
+#head_top .mega {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-color: blueviolet;
+    left: -100%;
+    top: 50px;
+    transition: 1.5s;
+    overflow: hidden;
+}
+
+#head_top .mega>li {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/54.svg);
+    padding: 100px;
+}
+
+#head_top .mega>li>p {
+    width: 70%;
+    color: #ffffff;
+    background-color: #141965;
+    font-size: 30px;
+    padding: 20px;
+    transform: translateX(2000px);
+    transition: 1.5s;
+}
+
+#head_top .mega>li>ul {
+    width: 30%;
+    font-size: 30px;
+    transform: translateX(2000px);
+    transition: 1.5s;
+}
+
+#head_top .mega>li>ul>li {
+    text-align: center;
+}
+
+#head_top>header>nav>ul>li>a:hover {
+    color: gold;
+}
+
+#head_top>header>nav>ul>li:first-of-type>a {
+    color: gold;
+}
+
+#head_top>header>div {
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+}
+
+#head_top>header>div>a {
+    display: flex;
+    width: 200px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+
+/* end head top******* */
+
+
+#head_bottom {
+    width: 100%;
+    height: calc(100vh - 100px);
+    padding: 100px 200px;
+}
+
+#head_bottom>div {
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#head_bottom>div>a {
+    padding: 15px 25px;
+    background-color: gold;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+#head_bottom>h1 {
+    font-size: 7vw;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+/* end top */
+
+#joinUs {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#joinUs>* {
+    width: 50%;
+    min-height: 100vh;
+}
+
+#joinUs>div:first-of-type>div {
+    width: 100%;
+    min-height: 100px;
+    margin: 30px;
+}
+
+#joinUs>div:first-of-type>div:first-of-type>h2 {
+    font-size: 75px;
+    text-transform: capitalize;
+
+}
+
+#joinUs>div:first-of-type>div:first-of-type>h2::before {
+    content: 'ali tavahin';
+    text-transform: capitalize;
+    color: #3037c2;
+    font-size: 35px;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+#joinUs>div:first-of-type>div:first-of-type>h2::after {
+    content: '';
+    display: flex;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(161, 184, 184);
+    margin: 10px;
+}
+
+#joinUs>div:first-of-type>div:last-of-type>p {
+    font-size: 20px;
+    line-height: 55px;
+}
+
+#joinUs>div:last-of-type {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#joinUs>div:last-of-type>figure {
+    width: 45%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#joinUs>div:last-of-type>figure:nth-of-type(1) {
+    height: 850px;
+}
+
+#joinUs>div:last-of-type>figure:nth-of-type(2) {
+    height: 650px;
+}
+
+#joinUs>div:last-of-type>figure>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* <!-- end join us --> */
+
+#count {
+    width: 100%;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+#count>div {
+    flex-basis: 280px;
+    height: 220px;
+    background-color: rgb(39, 42, 194);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    background-image: url(../images/stat-bg.png);
+    background-size: cover;
+}
+
+#count>div>span {
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#count>div>span:first-of-type {
+    font-size: 140px;
+}
+
+/* end count */
+
+#sports {
+    width: 100%;
+    height: auto;
+    background-color: #0c3543;
+    padding: 150px 100px;
+}
+
+#sports>article>div:first-child {
+    width: 40%;
+}
+
+#sports>article>div:first-child>h2 {
+    font-size: 60px;
+    color: aliceblue;
+}
+
+#sports>article>div:first-child>h2::before {
+    content: 'Live The Exctitement';
+    display: flex;
+    width: 100%;
+    color: goldenrod;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#sports>article>div:first-child>h2::after {
+    content: '';
+    display: flex;
+    width: 30%;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+#sports>article>div:last-child {
+    width: 60%;
+
+}
+
+#sports>article>div:last-child>p {
+    color: #ffffff;
+    padding: 0 50px;
+    line-height: 70px;
+}
+
+#sports>div {
+    justify-content: space-evenly;
+}
+
+#sports>div>figure {
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #165f77;
+    margin: 20px 0;
+}
+
+#sports>div>figure>img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+#sports>div>figure>figcaption {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+#sports>div>figure>figcaption>h2,
+#sports>div>figure>figcaption>h3 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+
+/* end sports */
+
+#foot {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#foot>div {}
+
+#foot>div:first-child {
+    width: 45%;
+    background-image: url(../images/footer-image.jpg);
+    background-size: cover;
+}
+
+#foot>div:last-child {
+    width: 55%;
+    padding: 100px;
+    background-color: #0c3543;
+}
+
+.footer_top,
+.footer_bottom {
+    width: 100%;
+
+}
+
+.footer_top>figure img {
+    height: 70px;
+}
+
+.footer_top>.row {
+    margin-top: 50px;
+}
+
+.footer_top>.row>a,
+.footer_top>.row>p {}
+
+.footer_top>.row>a {
+    display: flex;
+    width: 210px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.footer_top>.row>p {
+    width: calc(100% - 210px);
+    color: #ffffff;
+    line-height: 35px;
+    padding-left: 40px;
+}
+
+.footer_bottom div:first-of-type {
+    width: 210px;
+}
+
+.footer_bottom div:first-of-type>h4 {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.footer_bottom div:first-of-type>h4::after {
+    content: '';
+    display: flex;
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.footer_bottom div:first-of-type>h4:hover::after {
+    width: 100%;
+}
+
+.footer_bottom div:last-of-type {
+    width: calc(100% - 210px);
+    padding: 40px;
+}
+.footer_bottom div:last-of-type>*{
+    display: flex;
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.footer_bottom p{
+    color: #ffffff;
+    margin-top: 100px;
+}
